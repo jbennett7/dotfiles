@@ -29,9 +29,9 @@ set ruler
 set number
 :let mapleader = " "
 " :map a :Ack 
-if has("gui_macvim")
-    :colorscheme evening
-    :autocmd VimEnter * NERDTree
-else
+"if has("gui_macvim")
+"    :colorscheme evening
+"    :autocmd VimEnter * NERDTree
+"else
     :colorscheme desert
-endif
+"endif
